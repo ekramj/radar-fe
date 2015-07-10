@@ -1,6 +1,6 @@
 # DOCKER-VERSION 1.1.2
 # FROM shipimg/appbase:latest
-FROM ekramj/radar-fe:latest
+FROM ekramj/radar-fe
 
 # Bundle app source
 RUN mkdir -p /src
